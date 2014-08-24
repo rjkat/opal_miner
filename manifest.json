@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Opal Miner",
+  "description": "Exports Opal card data so you can view it in your calendar.",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.opal.com.au/registered/opal-card-transactions/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
